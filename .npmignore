@@ -60,13 +60,23 @@ dist/
 # Documentation
 docs/
 
+# Git repository
+.git
+
+# Npmignore itself
+.npmignore
+
 # .ignore files and development configs
 .editorconfig
 .eslintignore
 .gitattributes
+.gitignore
 .prettierignore
 .prettierrc.js
 .stylelintrc.js
 babel.config.js
 renovate.json
 package-lock.json
+
+# GitHub Actions
+.github

@@ -148,9 +148,6 @@ jobs:
       - name: Install Node.js dependencies
         run: npm ci
 
-      - name: Format SCSS
-        run: npm run format
-
       - name: Pack Production NPM Bundle
         run: npm pack --pack-destination ${{ steps.workflow.outputs.dist }}
 

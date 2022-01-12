@@ -176,7 +176,7 @@ jobs:
           mkdir dist
           echo ::set-output name=dist::${PWD}/dist
 
-      - name: Download ZIP artifact
+      - name: Download Gzip artifact
         uses: actions/download-artifact@v2
         with:
           name: ${{ needs.release-prerequisites.outputs.package }}
